@@ -1,91 +1,158 @@
 [
   {
-    "id": "TEA202605001",
-    "name": "西湖龙井·明前特级",
-    "category": "绿茶",
-    "origin": "浙江省杭州市西湖区龙井村",
-    "producer": "杭州茗韵茶业有限公司",
-    "batch": "LJ-20260401-A03",
-    "productionDate": "2026-04-01",
-    "shelfLife": "18个月",
-    "weight": "250g/罐",
-    "inspection": {
-      "institution": "浙江省农产品质量安全检测中心",
-      "date": "2026-04-05",
-      "result": "合格",
-      "items": [
-        { "name": "农药残留（有机磷）", "standard": "≤0.5mg/kg", "result": "未检出" },
-        { "name": "铅（Pb）", "standard": "≤2.0mg/kg", "result": "0.3mg/kg" },
-        { "name": "水分", "standard": "≤7.0%", "result": "5.2%" }
-      ]
-    },
+    "id": "APP202605001",
+    "name": "阳光苹果",
+    "category": "新鲜水果",
+    "batch": "2026-05-A01",
+    "origin": "重庆市巴南区智慧农业示范园",
+    "date": "2026-05-10",
+    "shelfLife": "30天",
+    "weight": "2.5kg/箱",
+    "producer": "重庆绿色农业有限公司",
+    "testResult": "合格",
+    "testOrg": "重庆食品质量检测中心",
+    "testDate": "2026-05-12",
+    "testItems": [
+      { "name": "农药残留（有机磷类）", "standard": "≤0.2mg/kg", "result": "未检出" },
+      { "name": "铅（Pb）", "standard": "≤0.1mg/kg", "result": "0.02mg/kg" },
+      { "name": "镉（Cd）", "standard": "≤0.05mg/kg", "result": "未检出" },
+      { "name": "糖度（Brix）", "standard": "≥12°", "result": "14.6°" }
+    ],
     "logistics": [
-      { "time": "2026-04-06 08:00", "location": "杭州市龙井村茶园", "event": "鲜叶采摘完成" },
-      { "time": "2026-04-06 14:00", "location": "杭州茗韵茶业加工厂", "event": "杀青、揉捻、烘干完成" },
-      { "time": "2026-04-08 10:00", "location": "杭州茗韵仓储中心", "event": "质检合格，入库存储" },
-      { "time": "2026-04-15 09:30", "location": "顺丰速运·杭州集散中心", "event": "出库发货" },
-      { "time": "2026-04-17 14:00", "location": "目的地门店", "event": "到货验收完成" }
-    ]
+      { "time": "2026-05-10 06:30", "location": "巴南区智慧农业示范园", "event": "鲜果采摘完成" },
+      { "time": "2026-05-10 14:00", "location": "园区分拣中心", "event": "智能分拣、按大小品相分级" },
+      { "time": "2026-05-11 09:00", "location": "园区包装车间", "event": "清洗打蜡、套袋装箱" },
+      { "time": "2026-05-12 10:00", "location": "重庆食品质量检测中心", "event": "农残及重金属检测合格" },
+      { "time": "2026-05-13 08:00", "location": "顺丰冷链·重庆集散中心", "event": "冷链装车发出" },
+      { "time": "2026-05-14 07:30", "location": "主城区各大超市", "event": "验收入库、上架销售" }
+    ],
+    "conclusion": "该批次产品来源清晰，检测合格，可放心食用。"
   },
   {
-    "id": "TEA202605002",
-    "name": "安溪铁观音·浓香型",
-    "category": "乌龙茶",
-    "origin": "福建省泉州市安溪县感德镇",
-    "producer": "安溪山源茶业合作社",
-    "batch": "TGY-20260320-B07",
-    "productionDate": "2026-03-20",
+    "id": "MILK202605002",
+    "name": "校园鲜牛奶",
+    "category": "乳制品",
+    "batch": "2026-05-M02",
+    "origin": "重庆市某乳业基地",
+    "date": "2026-05-08",
+    "shelfLife": "7天",
+    "weight": "250ml/盒",
+    "producer": "重庆优鲜乳业有限公司",
+    "testResult": "合格",
+    "testOrg": "食品安全检测中心",
+    "testDate": "2026-05-09",
+    "testItems": [
+      { "name": "蛋白质含量", "standard": "≥3.0g/100ml", "result": "3.4g/100ml" },
+      { "name": "菌落总数", "standard": "≤100000 CFU/ml", "result": "12000 CFU/ml" },
+      { "name": "三聚氰胺", "standard": "不得检出", "result": "未检出" },
+      { "name": "体细胞数", "standard": "≤40万/ml", "result": "18万/ml" },
+      { "name": "脂肪含量", "standard": "≥3.1%", "result": "3.6%" }
+    ],
+    "logistics": [
+      { "time": "2026-05-08 05:00", "location": "重庆乳业基地牧场", "event": "原奶采集完成" },
+      { "time": "2026-05-08 07:00", "location": "乳业加工车间", "event": "巴氏杀菌（72℃/15秒）" },
+      { "time": "2026-05-08 11:00", "location": "乳业灌装产线", "event": "无菌灌装、密封封装" },
+      { "time": "2026-05-09 09:00", "location": "食品安全检测中心", "event": "理化指标与微生物检测合格" },
+      { "time": "2026-05-09 14:00", "location": "冷链配送车队", "event": "2-6℃冷链装车配送" },
+      { "time": "2026-05-10 06:00", "location": "校园超市冷柜", "event": "到货验收、冷柜上架" }
+    ],
+    "conclusion": "该批次鲜奶全程冷链，检测指标均符合国家标准，可放心饮用。"
+  },
+  {
+    "id": "RICE202605003",
+    "name": "高山生态大米",
+    "category": "粮食谷物",
+    "batch": "2026-04-R03",
+    "origin": "重庆市南川区金佛山高山稻田",
+    "date": "2026-04-20",
+    "shelfLife": "12个月",
+    "weight": "5kg/袋",
+    "producer": "南川金佛山生态农业专业合作社",
+    "testResult": "合格",
+    "testOrg": "重庆市粮油质量监督检验站",
+    "testDate": "2026-04-25",
+    "testItems": [
+      { "name": "农药残留（毒死蜱）", "standard": "≤0.1mg/kg", "result": "未检出" },
+      { "name": "铅（Pb）", "standard": "≤0.2mg/kg", "result": "0.04mg/kg" },
+      { "name": "无机砷", "standard": "≤0.2mg/kg", "result": "0.06mg/kg" },
+      { "name": "黄曲霉毒素B1", "standard": "≤10μg/kg", "result": "未检出" },
+      { "name": "镉（Cd）", "standard": "≤0.2mg/kg", "result": "0.08mg/kg" }
+    ],
+    "logistics": [
+      { "time": "2026-04-18 08:00", "location": "南川金佛山高山稻田", "event": "稻谷收割完成" },
+      { "time": "2026-04-19 10:00", "location": "合作社烘干中心", "event": "低温烘干、去杂脱壳" },
+      { "time": "2026-04-20 14:00", "location": "合作社精米加工车间", "event": "碾米、抛光、色选分级" },
+      { "time": "2026-04-22 09:00", "location": "合作社成品仓库", "event": "真空包装、入库待检" },
+      { "time": "2026-04-25 10:00", "location": "重庆市粮油质量监督检验站", "event": "全项检测合格" },
+      { "time": "2026-04-28 08:00", "location": "南川物流园", "event": "装车发往主城区" },
+      { "time": "2026-04-29 15:00", "location": "主城区粮油批发市场", "event": "到货验收入库" }
+    ],
+    "conclusion": "该批次大米产自高海拔生态稻田，全程无化学农药，检测指标均达标，可放心食用。"
+  },
+  {
+    "id": "EGG202605004",
+    "name": "乡村散养土鸡蛋",
+    "category": "禽蛋类",
+    "batch": "2026-05-E04",
+    "origin": "重庆市武隆区仙女山生态养殖场",
+    "date": "2026-05-09",
+    "shelfLife": "常温15天 / 冷藏45天",
+    "weight": "30枚/盒（约1.8kg）",
+    "producer": "武隆仙女山农禽养殖专业合作社",
+    "testResult": "合格",
+    "testOrg": "重庆市畜产品质量安全检测中心",
+    "testDate": "2026-05-11",
+    "testItems": [
+      { "name": "沙门氏菌", "standard": "不得检出", "result": "未检出" },
+      { "name": "铅（Pb）", "standard": "≤0.2mg/kg", "result": "0.03mg/kg" },
+      { "name": "恩诺沙星（兽药残留）", "standard": "不得检出", "result": "未检出" },
+      { "name": "苏丹红", "standard": "不得检出", "result": "未检出" },
+      { "name": "三聚氰胺", "standard": "不得检出", "result": "未检出" },
+      { "name": "蛋壳强度", "standard": "≥30N", "result": "38N" }
+    ],
+    "logistics": [
+      { "time": "2026-05-09 07:00", "location": "仙女山生态养殖场", "event": "当日鲜蛋捡拾完成" },
+      { "time": "2026-05-09 09:30", "location": "养殖场初筛车间", "event": "光照检验、裂纹筛选、按大小分级" },
+      { "time": "2026-05-09 14:00", "location": "养殖场包装间", "event": "消毒、喷码（批次号）、装盒封箱" },
+      { "time": "2026-05-10 06:00", "location": "武隆农产品冷链中心", "event": "冷库暂存、等待检测" },
+      { "time": "2026-05-11 10:00", "location": "重庆市畜产品质量安全检测中心", "event": "微生物及兽药残留检测合格" },
+      { "time": "2026-05-12 07:00", "location": "顺丰冷链·武隆站点", "event": "冷链装车发往主城区" },
+      { "time": "2026-05-12 14:00", "location": "主城区生鲜超市", "event": "到货验收、冷柜上架" }
+    ],
+    "conclusion": "该批次土鸡蛋来自高山散养环境，未使用违禁添加物，兽药残留检测合格，可放心食用。"
+  },
+  {
+    "id": "HON202605005",
+    "name": "百花土蜂蜜",
+    "category": "蜂产品",
+    "batch": "2026-03-H05",
+    "origin": "重庆市城口县大巴山中蜂养殖基地",
+    "date": "2026-03-15",
     "shelfLife": "24个月",
-    "weight": "500g/袋",
-    "inspection": {
-      "institution": "福建省茶叶质量监督检验中心",
-      "date": "2026-03-28",
-      "result": "合格",
-      "items": [
-        { "name": "农药残留（联苯菊酯）", "standard": "≤5.0mg/kg", "result": "0.8mg/kg" },
-        { "name": "铅（Pb）", "standard": "≤2.0mg/kg", "result": "0.5mg/kg" },
-        { "name": "水分", "standard": "≤7.5%", "result": "6.1%" },
-        { "name": "稀土氧化物", "standard": "≤2.0mg/kg", "result": "未检出" }
-      ]
-    },
+    "weight": "500g/瓶",
+    "producer": "城口大巴山中蜂养殖专业合作社",
+    "testResult": "合格",
+    "testOrg": "重庆市食品药品检验检测研究院",
+    "testDate": "2026-04-02",
+    "testItems": [
+      { "name": "果糖和葡萄糖含量", "standard": "≥60%", "result": "72.4%" },
+      { "name": "蔗糖含量", "standard": "≤5%", "result": "1.8%" },
+      { "name": "羟甲基糠醛（HMF）", "standard": "≤40mg/kg", "result": "8.2mg/kg" },
+      { "name": "氯霉素", "standard": "不得检出", "result": "未检出" },
+      { "name": "铅（Pb）", "standard": "≤1.0mg/kg", "result": "0.1mg/kg" },
+      { "name": "水分", "standard": "≤24%", "result": "18.6%" },
+      { "name": "淀粉酶活性", "standard": "≥4 mL/(g·h)", "result": "8.3 mL/(g·h)" }
+    ],
     "logistics": [
-      { "time": "2026-03-20 06:30", "location": "安溪县感德镇茶园", "event": "鲜叶采摘" },
-      { "time": "2026-03-21 20:00", "location": "安溪山源合作社加工车间", "event": "摇青、炒青、包揉、烘焙完成" },
-      { "time": "2026-03-25 11:00", "location": "安溪山源合作社仓库", "event": "精制分级、质检合格" },
-      { "time": "2026-03-28 16:00", "location": "安溪茶都物流中心", "event": "装箱发货" },
-      { "time": "2026-04-01 09:00", "location": "经销商仓库", "event": "到货验收完成" }
-    ]
-  },
-  {
-    "id": "TEA202605003",
-    "name": "云南勐海普洱茶·熟茶饼",
-    "category": "普洱茶",
-    "origin": "云南省西双版纳傣族自治州勐海县",
-    "producer": "勐海陈升茶业有限公司",
-    "batch": "PE-20260115-C12",
-    "productionDate": "2026-01-15",
-    "shelfLife": "在适当条件下可长期保存",
-    "weight": "357g/饼",
-    "inspection": {
-      "institution": "云南省产品质量监督检验研究院",
-      "date": "2026-02-10",
-      "result": "合格",
-      "items": [
-        { "name": "农药残留（氯氰菊酯）", "standard": "≤0.5mg/kg", "result": "未检出" },
-        { "name": "铅（Pb）", "standard": "≤2.0mg/kg", "result": "0.4mg/kg" },
-        { "name": "水分", "standard": "≤13.0%", "result": "9.8%" },
-        { "name": "黄曲霉毒素B1", "standard": "≤5.0μg/kg", "result": "未检出" },
-        { "name": "灰分", "standard": "≤8.0%", "result": "5.6%" }
-      ]
-    },
-    "logistics": [
-      { "time": "2026-01-05 07:00", "location": "勐海县布朗山古茶园", "event": "大叶种鲜叶采摘" },
-      { "time": "2026-01-06 10:00", "location": "勐海陈升茶业初制所", "event": "萎凋、杀青、揉捻、晒青毛茶完成" },
-      { "time": "2026-01-10 09:00", "location": "勐海陈升茶业发酵车间", "event": "渥堆发酵启动（45天发酵周期）" },
-      { "time": "2026-01-15 14:00", "location": "勐海陈升茶业精制车间", "event": "发酵完成，蒸压成饼、干燥定型" },
-      { "time": "2026-02-10 10:00", "location": "勐海陈升茶业质检部", "event": "送检合格，品质评级：优" },
-      { "time": "2026-02-20 08:30", "location": "勐海陈升茶业成品仓库", "event": "包装入仓，恒温恒湿存储" },
-      { "time": "2026-03-05 15:00", "location": "昆明中转物流中心", "event": "出库发往全国经销商" }
-    ]
+      { "time": "2026-03-10 08:00", "location": "城口县大巴山中蜂养殖基地", "event": "春季百花蜜源期开始取蜜" },
+      { "time": "2026-03-12 10:00", "location": "养殖基地蜂蜜初加工间", "event": "割蜜、过滤、去除蜂蜡杂质" },
+      { "time": "2026-03-13 14:00", "location": "养殖基地检测室", "event": "含水量初测达标（18.6%）" },
+      { "time": "2026-03-15 09:00", "location": "养殖基地灌装车间", "event": "低温灌装、贴标、装箱入库" },
+      { "time": "2026-03-20 08:00", "location": "城口县农产品仓储中心", "event": "恒温仓库储存待检" },
+      { "time": "2026-04-02 10:00", "location": "重庆市食品药品检验检测研究院", "event": "全项指标检测合格" },
+      { "time": "2026-04-05 09:00", "location": "城口物流集散中心", "event": "装车发往主城区经销商" },
+      { "time": "2026-04-06 16:00", "location": "主城区土特产专卖店", "event": "到货验收、上架销售" }
+    ],
+    "conclusion": "该批次蜂蜜采自大巴山天然百花蜜源，无添加、无浓缩，活性酶含量高，检测指标均优于国家标准，可放心食用。"
   }
 ]
